@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 | kelvinquarcoo</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script> 
+
+</head>
+<body onload="displayCurrentDay()">
+    <header class="header">
+        <a href="#" class="logo">
+            <div >zuri</div>
+        </a>
+        <nav class="navbar">
+            <p data-testid="slackUserName">kelvinquarcoo</p>
+            <img src="profile__pic.jpg" alt="kelvinquarcoo" data-testid="slackDisplayImage">
+        </nav>
+    </header>
+    <section class="main-section">
+        <div class="home">
+            <div class="home-content">
+                <h3>Hi, I am</h3>
+                <h1>Kelvin Quarcoo</h1>
+                <h3> And an Intern at HNGx</h3><br>
+                <h2>Profile</h2>
+                <ul>
+                    <li data-testid="myTrack">Track - Frontend</li>
+                    <li data-testid="slackUserName">Slack Username - kelvinquarcoo</li>
+                    <li data-testid="githubURL"><a href="https://github.com/housebuoy">Github URL - <span>https://github.com/housebuoy</span></a></li>
+                </ul>
+            </div>
+            <div class="home-img">
+                <img src="profile__pic.jpg" alt="kelvinquarcoo" data-testid="slackDisplayImage">
+            </div>
+        </div>
+        <div class="clock">
+            <div class="display-date" data-testid="currentDayOfTheWeek">
+              <span id="day">day</span>,
+              <span id="daynum">00</span>
+              <span id="month">month</span>
+              <span id="year">0000</span>
+            </div>
+            <div class="display-time" data-testid="currentUTCTime"></div>
+          </div>
+    </section>
+</body>
+
+</html>
